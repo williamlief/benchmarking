@@ -55,7 +55,7 @@ mb <-  microbenchmark(
                          cigsale_1988 = cigsale) %>%
       generate_weights(optimization_window =1970:1988,
                        Margin.ipop=.02,Sigf.ipop=7,Bound.ipop=6) %>%
-      generate_aacontrol()},
+      generate_control()},
   augsynth_no_ridge_no_fe = augsynth(lngdpcapita ~ treated, fips, year_qtr, kansas,
                                      progfunc = "None", scm = F),
   augsynth_ridge_fe = augsynth(lngdpcapita ~ treated, fips, year_qtr, kansas,
@@ -66,4 +66,4 @@ mb <-  microbenchmark(
 
 # Save Results ------------------------------------------------------------
 
-saveRDS(output, paste0("output/synth_methods-", sysname, ".RDS"))
+saveRDS(mb, paste0("output/synth_methods-", sysname, ".RDS"))
