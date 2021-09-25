@@ -5,6 +5,8 @@ Compare performance across linux and windows dual booted on the same machine
 
 ## Synthetic Controls
 
+![Synthetic Control Comparison](https://github.com/williamlief/benchmarking/blob/main/figures/synth_methods.jpg)
+
 # Computer Specs 
 
 * Hardware 
