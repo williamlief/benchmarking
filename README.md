@@ -20,3 +20,5 @@ Compare performance across linux and windows dual booted on the same machine
     * R version 4.1.1 (2021-08-10) -- "Kick Things"
     * RStudio Version 1.4.1717
   * Windows 10
+    * R version 4.1.1 (2021-08-10) -- "Kick Things"
+    * RStudio Version 1.4.1717
