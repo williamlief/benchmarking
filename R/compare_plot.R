@@ -15,7 +15,7 @@ compare_plot <- function(comparison, title) {
     theme_minimal() +
     labs(y = "time (seconds)", 
          x = NULL, 
-         subtitle = "Results from Ten Trials, same hardware dual booted",
+         subtitle = "Results from ten microbenchmark trials, same hardware dual booted",
          title = title) 
   
   ggsave(paste0("figures/", comparison, ".jpg"),
