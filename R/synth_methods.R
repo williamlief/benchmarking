@@ -1,3 +1,8 @@
+# This script compares synthetic control methods using the example methods 
+# contained within the packages documentation. I modify the augsynth 
+# example to include a version with neither ridge nor unit fe, and a version
+# with both ridge and unit fe.
+
 library(augsynth)
 library(tidysynth)
 library(Synth)
